@@ -98,7 +98,7 @@ function birthdayCountDown(){
          " " +birthday.messageOut()[2]+","+birthday.messageOut()[0];
 
        } else if(difference==0){
-         var Msg="Happy birthday to you,";
+         var Msg="Happy birthday to you dear"+birthday.messageOut()[4];
       
        } else{
         var Msg="Hi "+birthday.messageOut()[4]+", wait a little more while your birthday approaches."
