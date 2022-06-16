@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BIRTHDAY PROGRAM</title>
+    <script src="jquery-3.6.0.js"></script>
+    <script src="jquery-ui/jquery-ui.js"></script>
+    <script src="birthday2.js"></script>
+    <link rel="stylesheet" href="jquery-ui/jquery-ui.css">
+    <link rel="stylesheet" href="jquery-ui/jquery-ui.structure.css">
+    <link rel="stylesheet" href="jquery-ui/jquery-ui.theme.css">
+    <style>
+      @import url(birthday.css);
+    </style>
+</head>
+<body>
+  <div id="form">
+    <form>
+      <fieldset>
+        <legend>Birthday CountDown</legend>
+        <ul>
+          <li><label for="personName">Name:</label><input type="text" id="personame" title="your name" required/></li>
+          <li><label for="year">Birth Year:</label><input type="text" id="yob" title="year in which you were born" required/></li>
+          <li>
+            <label for="month">Birth Month:</label>
+            <select id="mob" name="birthmonth">
+              <option selected>select</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              <option>6</option>
+              <option>7</option>
+              <option>8</option>
+              <option>9</option>
+              <option>10</option>
+              <option>11</option>
+              <option>12</option>
+            </select>
+          </li>
+          <li>
+            <label for="date">Birth Date:</label>
+            <select id="dob" name="birthdate">
+              <option selected>select</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              <option>6</option>
+              <option>7</option>
+              <option>8</option>
+              <option>9</option>
+              <option>10</option>
+              <option>11</option>
+              <option>12</option>
+              <option>13</option>
+              <option>14</option>
+              <option>15</option>
+              <option>16</option>
+              <option>17</option>
+              <option>18</option>
+              <option>19</option>
+              <option>20</option>
+              <option>21</option>
+              <option>22</option>
+              <option>23</option>
+              <option>24</option>
+              <option>25</option>
+              <option>26</option>
+              <option>27</option>
+              <option>28</option>
+              <option>29</option>
+              <option>30</option>
+              <option>31</option>
+            </select>
+          </li>
+          <li><input type="button" value="SUBMIT" id="btn"onclick="birthdayCountDown()"/></li>
+        </ul>
+      </fieldset>
+    </form>
+    <div id="result"> 
+    </div>
+  </div>
+  <script src="birthday.js"></script>
+</body>
+</html>
